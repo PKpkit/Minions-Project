@@ -1,0 +1,262 @@
+/* General styles */
+@font-face{
+    font-family: minions;
+    src: url(THEMINION.ttf);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #fff;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.logo img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.hero-text {
+    font-size: 10rem;
+    color: #ffcc00;
+    margin-top: 30px;
+}
+
+.subtext {
+    font-size: 2rem;
+    color: #333;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.minions-image img {
+    width: 75%;
+    margin-top: 10px;
+    height: 75%;
+}
+
+
+.pr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #ffcc00;
+}
+.pr .pr-text{
+    font-family: minions;
+    color: #222;
+    font-size: 3.5rem
+    ;
+}
+.pr img{
+    float: right;
+}
+
+/* Introduction Section */
+#introduction {
+    padding: 60px 20px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.description {
+    font-size: 1.2rem;
+}
+
+/* Meet Minion Section */
+#meet-minion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #ffcc00;
+}
+
+.meet h2 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.meet h1 {
+    font-family: minions;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.meet p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.minion-image img {
+    width: 300px;
+}
+.meet .play-button a {
+    text-decoration: none;
+    color: white;
+    background-color: #ff6f00;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 1.2em;
+}
+
+/*minion evil*/
+#minion-evil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #7f47b9;
+}
+
+.evil h2 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.evil h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.evil p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.evil-image img {
+    width: 400px;
+}
+.evil .play-button a {
+    text-decoration: none;
+    color: white;
+    background-color: #ff6f00;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 1.2em;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.image-gallery img {
+    margin: 10px;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 4px 8px wheat;
+}
+
+/*scroll img*/
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float:left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+.finish{
+    border: #333;
+    border-radius: 50%;
+}
+.finish .enjoy{
+    font-family: minions;
+    font-size: 3rem;
+    color: #ffcc00;
+}
